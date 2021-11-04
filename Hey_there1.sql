@@ -12,3 +12,9 @@ join assign using (empid)
 join project using (projno)
 where projno = '1001'
 order by worker.lastname asc;
+
+
+
+select firstname, lastname, salary, departmentid 
+from worker 
+where departmentid = '2' and salary = (select min(salary) from worker);
