@@ -53,3 +53,10 @@ insert into worker(empid, lastname, firstname, departmentid, birthdate, hiredate
 insert into assign ( projno , empid, hoursassigned, rating ) values ( '1001' , '201869', '20', '5');
 insert into assign ( projno , empid, hoursassigned, rating ) values ( '1025' , '201869', '15', '3');
 select * from "myNewView";
+
+12. 
+update assign 
+set hoursassigned =10 
+where assign.empid = '110' and assign.projno = '1019';
+
+
