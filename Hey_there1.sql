@@ -44,3 +44,12 @@ from worker, project;
 select projno, projname 
 from "myNewView"
 where empid = '101';
+
+11. 
+insert into worker(empid, lastname, firstname, departmentid, birthdate, hiredate, salary ) values ( 201841 , 'Georgiou', 'Stefanos', 2 , '13-APR-1999', '15-APR-2021', 75000);
+insert into assign ( projno , empid, hoursassigned, rating ) values ( '1001' , '201841', '15', '3');
+insert into assign ( projno , empid, hoursassigned, rating ) values ( '1030' , '201841', '15', '3');
+insert into worker(empid, lastname, firstname, departmentid, birthdate, hiredate, salary ) values ( 201869 , 'Macris', 'Constantine', 2 , '05-JUN-2000', '27-MAR-2021', 100000);
+insert into assign ( projno , empid, hoursassigned, rating ) values ( '1001' , '201869', '20', '5');
+insert into assign ( projno , empid, hoursassigned, rating ) values ( '1025' , '201869', '15', '3');
+select * from "myNewView";
