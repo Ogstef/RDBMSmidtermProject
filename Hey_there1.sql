@@ -15,9 +15,9 @@ order by worker.lastname asc;
 
 
 
-5. select firstname, lastname, salary, departmentid 
-from worker 
-where departmentid = '2' and salary = (select min(salary) from worker);
+5.SELECT firstname, lastname, salary, departmentid 
+FROM worker 
+WHERE departmentid = 2 AND salary = (SELECT MIN(salary) FROM worker where departmentid = 2);
 
 
 6. select * 
