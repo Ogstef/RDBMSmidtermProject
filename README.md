@@ -15,3 +15,9 @@ If you would like to know more about our mission, or if you would like to donate
 feel free to reach out to us anytime at wearedonewiththismidterm@coldmail.org.
 
 Thanks for reading this README and have a lovely day.
+
+git = pushed
+doc = submission
+bb = submission recieved
+midterm = done
+LESGO
