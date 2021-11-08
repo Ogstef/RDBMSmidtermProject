@@ -10,3 +10,4 @@ SELECT firstname, lastname, rating
                 FROM worker 
                 WHERE lastname = 'Burns' 
                 AND firstname = 'Michael'));
+                

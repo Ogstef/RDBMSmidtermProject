@@ -6,3 +6,4 @@
        JOIN project USING (projno)
       WHERE projno = '1001'
    ORDER BY worker.lastname ASC;
+   

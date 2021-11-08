@@ -4,3 +4,4 @@
    JOIN DEPT
   USING (DEPARTMENTID)
   WHERE DEPARTMENTNAME = 'Accounting';
+  

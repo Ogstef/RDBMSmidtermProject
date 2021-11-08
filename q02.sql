@@ -8,3 +8,4 @@
    FROM project
   WHERE projname 
    LIKE '%urn%';
+   

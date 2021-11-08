@@ -18,3 +18,4 @@ INSERT INTO assign (projno , empid, hoursassigned, rating)
      
      SELECT * 
        FROM "myNewView";
+       
