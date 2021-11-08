@@ -16,16 +16,13 @@ SET STATUS = 'COMPLETED'
 WHERE PROJNO = 1032;
 
 --Displays all active projects from projects table
-SELECT
-    "A1"."PROJNO"                "PROJNO",
-    "A1"."PROJNAME"              "PROJNAME",
-    "A1"."PROJMGRID"             "PROJMGRID",
-    "A1"."BUDGET"                "BUDGET",
-    "A1"."STARTDATE"             "STARTDATE",
-    "A1"."EXPECTEDDURATIONWEEKS" "EXPECTEDDURATIONWEEKS",
-    "A1"."STATUS"                "STATUS",
-    "A1"."NUMEMPLOYEESASSIGNED"  "NUMEMPLOYEESASSIGNED"
-FROM
-    "HOME"."PROJECT" "A1"
-WHERE
-    "A1"."STATUS" = 'ACTIVE';
+SELECT  PROJNO,
+        PROJNAME,
+        PROJMGRID,
+        BUDGET,
+        STARTDATE,
+        EXPECTEDDURATIONWEEKS,
+        STATUS,
+        NUMEMPLOYEESASSIGNED 
+   FROM PROJECT
+  WHERE STATUS = 'ACTIVE';
