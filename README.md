@@ -17,7 +17,11 @@ feel free to reach out to us anytime at wearedonewiththismidterm@coldmail.org.
 Thanks for reading this README and have a lovely day.
 
 git = pushed
-doc = submission
-bb = submission recieved
-midterm = done
+
+doc = submitted
+
+submission = recieved
+
+midterm = complete
+
 LESGO
