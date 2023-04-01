@@ -1,4 +1,4 @@
-# RDBMSmidtermProject
+# rdbms-midterm-project
 
 This is the group coursework from Group 1 of ITC 3160: Fundamentals of RDBMS.
 
